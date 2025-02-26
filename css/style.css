@@ -1,0 +1,256 @@
+.containerbig {
+   
+    display: flex;
+    flex-direction: row;
+    width: 1512px;
+    height: 600px;
+    padding: 20px 0px 0px;
+    justify-content: space-evenly;
+}
+
+.container1 {
+
+    width: 505px;
+    height: 336px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.container11 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.trump {
+    width: 505px;
+    height: 336px;
+    border: 0;
+}
+
+.letra1 {
+    font-family: FoundersGroteskCond, Arial Narrow, Arial, sans-serif;
+    font-size: 32px;
+    text-decoration: none;
+    font-weight: 600;
+    width: 463px;
+    height: 69px;
+    color: inherit;
+}
+
+.boxgray {
+    display: flex;
+    border-top: 1px solid #ccc;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxgray1 {
+    display: flex;
+    border-top: 1px solid #ccc;
+    align-items: center;
+    justify-content: center;
+}
+
+.letra11 {
+    width: 246px;
+    height: 76px;
+    font-family: FoundersGroteskCond, Arial Narrow, Arial, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #2A2A2A;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    width: 306px;
+    height: 336px;
+
+}
+
+.imgv {
+    width: 306px;
+    height: 175px;
+}
+.letra2 {
+    font-family: FoundersGroteskCond, Arial Narrow, Arial, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    color: inherit;
+}
+.red {
+    border-radius: 3px;
+    background-color: #cb1111;
+    color: #fff;   
+font-family: FoundersGroteskMono,Courier,Courier New;
+font-size: 12px;
+font-weight: 400;
+letter-spacing: -.04em;
+line-height: 100%;
+margin-right: 6px;
+padding: 3px;
+}
+.secod {
+
+   color: inherit;
+    outline: none;
+  list-style: none;
+font-family: FoundersGroteskCond, Arial Narrow, Arial, sans-serif;
+font-size: .875rem;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+unicode-bidi: isolate;
+}
+.container3 {
+width: 300px;
+height: 300px;
+display: flex;
+flex-direction: column;
+
+}
+.containersmall3 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+.videoup3 {
+    width: 190px;
+    height: 30Spx;
+
+}
+.video3 {
+    width: 250px;
+    height: 150px;
+    
+
+}
+.videodown3 {
+    width: 200px;
+    height: 60px;
+}
+.last {
+    align-self: unset;
+    
+    font-family: FoundersGroteskCond, Arial Narrow, Arial, sans-serif;
+    width: 260px;
+    height: 50px;
+    color: #2A2A2A;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    border-bottom: gray dotted 2px;
+}
+.list3 {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0;
+}
+.list33 {
+    position: relative;
+    padding-left: 20px; /* Espacio para el punto */
+}
+.list3 .list33::before {
+    content: ""; /* punto*/
+    position: absolute;
+    left: 0;
+    background-color: #3061ff; /* punto azul */
+    height: .5rem;
+    left: 0;
+    position: absolute;
+    top: .125rem;
+    width: .5rem;
+    border-radius: 50%;
+
+}
+.containersmall32 {
+    width: 260px;
+    height: 100px;
+    padding: 0px opx 20px 20px;
+}
+.let {
+    width: 260px;
+    height: 80px;
+    color: #2a2a2a;
+    font: 18px FoundersGroteskCond, Arial Narrow, Arial, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+.lett{
+    border-bottom: gray dotted 2px;
+
+} 
+header {
+    
+    border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1512px;
+    height: 60px;
+    background-color: #102039;
+}
+
+.mennu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 60px;
+    list-style: none;
+}
+.watch {
+    width: 106px;
+    height: 60px;
+    color: #fff;
+    text-decoration: none;
+    font: 18px FoundersGroteskCond, Arial Narrow, Arial, sans-serif;
+    font-weight: 800;
+}
+.usuario {
+    width: 41px;
+    height: 60px;
+}
+.menu {
+    width: 57px;
+    height: 38px;
+    color: #fff;
+    border: 0;
+    font: inherit;
+    margin-top: 15px;
+    font-size: 100%;
+padding-left: 16px;
+padding-right: 16px;
+padding: 0;
+vertical-align: baseline;
+}
+.menlet {
+    color: #fff;
+    text-decoration: none;
+    font: 18px FoundersGroteskCond, Arial Narrow, Arial, sans-serif;
+    font-weight: 800;
+}
+.menlet:hover {
+   
+   color: #3f3f3f;
+    cursor:pointer;
+}
+.watch:hover {
+   
+    color: #3f3f3f;
+     cursor:pointer;
+ }
+ .mennu:hover {
+   
+    color: #3f3f3f;
+     cursor:pointer;
+ }
